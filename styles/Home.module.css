@@ -136,12 +136,56 @@
   width: 25%;
 }
 
+.accentcardR5{
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  border-radius: var(--border-radius);
+  background-color: #A70000;
+  border: 2px solid #f2f2f2;
+  text-align: center;
+  width: 33%;
+}
+
+.dualdef{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  width: 50%;
+}
+
+.dualdef h3{
+  color:#FF0000;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.dualdef p{
+  color:#f2f2f2;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.vl {
+  border-left: 6px solid #d5d5d5;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
 .rulesHr{
   border: 1px solid #d5d5d5;
 }
 
 .rulesHr2{
   border: 1px solid #A70000;
+}
+
+.rulesHr2{
+  border: 1px solid #F8F4F9;
 }
 
 .decorativep{
@@ -157,6 +201,12 @@
 .decorativep3{
   color:#A70000;
   padding: 5px;
+}
+
+.definitionp{
+  color:#f2f2f2;
+  padding: 5px;
+  font-size: 20px;
 }
 
 .desiredfont{
@@ -269,6 +319,12 @@
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 2px solid #f2f2f2;
+  }
+
+  .dualdef:hover{
+    background: rgba(var(--card-rgb), 0.1);
+    border-radius: var(--border-radius);
+    border: 2px solid #333;
   }
 
   .accentcardR:hover {

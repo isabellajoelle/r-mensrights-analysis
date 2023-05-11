@@ -133,8 +133,16 @@ export default function Rules() {
             <br />
             <p className={styles.decorativep3}>
               If a user wishes to discuss meta issues in this subreddit they
-              should cross-post from the r/MensRightsMeta page; otherwise, they
-              should limit those discussions to that subreddit.
+              should cross-post from the{" "}
+              <Link
+                href="https://www.reddit.com/r/MensRightsMeta/"
+                className={styles.intextLink}
+                target="_blank"
+              >
+                r/MensRightsMeta
+              </Link>{" "}
+              page; otherwise, they should limit those discussions to that
+              subreddit.
             </p>
             <p className={styles.decorativep3}>
               All cross-posts must include the <strong>[META]</strong> tag
@@ -197,6 +205,7 @@ export default function Rules() {
             was banned) for violating community guidelines. The reason cited was
             that they were promoting hate and hate speech.{" "}
           </p>
+          <br />
         </div>
         <br />
         <div className={styles.multipleC}>
@@ -291,6 +300,23 @@ export default function Rules() {
             </blockquote>
           </div>
         </div>
+        <br />
+        <div className={styles.personalCard}>
+          <h4 className={styles.title}>Personal Note:</h4>
+          <hr className={styles.prLine} />
+          <br />
+          <p>
+            I was shocked to see that under their &quot;No Illegal Actions&quot;
+            rule the first action prohibited had to do with child pornography.
+            The specification regarding curbing pedophilia implies that is was
+            previously discussed often enough that they had to ban it. From my
+            perspective, that is a terrifying thought. It negatively colors my
+            view of the subreddit and the type of people it attracts but I do
+            appreciate that the moderators put a stop to it.
+          </p>
+          <br />
+        </div>
+        <br />
         <div className={styles.multipleC}>
           <div className={styles.accentcardR2}>
             <h3 className={styles.title_center}>
@@ -328,6 +354,15 @@ export default function Rules() {
             </blockquote>
           </div>
         </div>
+        <br />
+        <div className={styles.personalCard}>
+          <h4 className={styles.title}>Personal Note:</h4>
+          <hr className={styles.prLine} />
+          <br />
+          <p>The quote is hilarious. That&apos;s all I have to say.</p>
+          <br />
+        </div>
+        <br />
         <div className={styles.multipleC}>
           <div className={styles.accentcardW2}>
             <h3 className={styles.title_center}>
@@ -360,6 +395,19 @@ export default function Rules() {
             </p>
           </div>
         </div>
+        <br />
+        <div className={styles.personalCard}>
+          <h4 className={styles.title}>Personal Note:</h4>
+          <hr className={styles.prLine} />
+          <br />
+          <p>
+            Since I was not conducting any surveys, I did not believe it was
+            necessary for me to contact the moderators and state that I&apos;m a
+            researcher.
+          </p>
+          <br />
+        </div>
+        <br />
         <div className={styles.multipleC}>
           <div className={styles.accentcardR2}>
             <h3 className={styles.title_center}>Miscellaneous Rule</h3>

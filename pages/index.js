@@ -101,7 +101,7 @@ export default function Home() {
           <p>
             If any subreddit other than r/mensrights is referenced, it will be a
             hyperlink to the page itself. If you hover over the name of a
-            subreddut and it highlights like below:
+            subreddit and it highlights like below:
           </p>
           <p className={styles.intextLink}>THIS IS AN EXAMPLE</p>
           <p>Make sure to click on it :)</p>
