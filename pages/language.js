@@ -270,8 +270,8 @@ export default function Language() {
             <hr className={styles.rulesHr2}></hr>
             <br />
             <p>
-              a woman who have chosen to opt-out of sexual and romantic
-              relationships
+              a woman, or feminine-identifying person, who is unable to succeed
+              in their romantic and sexual life.
             </p>
           </div>
         </div>

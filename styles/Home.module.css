@@ -34,6 +34,82 @@
   border: 1px solid #d5d5d5
 }
 
+.flairG{
+  background-color: rgb(0, 87, 0);
+  color:#F8F4F9;
+  padding-top: 20px;
+  border-radius: var(--border-radius);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+
+.flairB{
+  background-color: rgb(0, 34, 171);
+  color:#F8F4F9;
+  padding-top: 20px;
+  border-radius: var(--border-radius);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+
+.flairR{
+  background-color: #A70000;
+  color:#F8F4F9;
+  padding-top: 20px;
+  border-radius: var(--border-radius);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+
+.flairP{
+  background-color: #66058c;
+  color:#F8F4F9;
+  padding-top: 20px;
+  border-radius: var(--border-radius);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+
+.flairG2{
+  background-color: rgb(0, 87, 0);
+  color:#F8F4F9;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  width: 25%;
+}
+
+.flairB2{
+  background-color: rgb(0, 34, 171);
+  color:#F8F4F9;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  width: 25%;
+}
+
+.flairR2{
+  background-color: #A70000;
+  color:#F8F4F9;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  width: 25%;
+}
+
+.flairP2{
+  background-color: #66058c;
+  color:#F8F4F9;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  width: 25%;
+}
+
 .personalCard{
   color:#F8F4F9;
   padding: 1rem 1.2rem;
@@ -209,6 +285,12 @@
   padding: 5px;
 }
 
+.decorativep4{
+  color:#f2f2f2;
+  padding: 5px;
+  text-align: center;
+}
+
 .definitionp{
   color:#f2f2f2;
   padding: 5px;
@@ -242,6 +324,12 @@
 
 .accentcardR2 li{
   padding: 5px;
+}
+
+.center_div{
+  text-align: center;
+  width:50%;
+  padding-top:30px;
 }
 
 .multipleC{
@@ -289,6 +377,42 @@
 
 .intextLink2:hover{
   font-weight: bold;
+}
+
+.intextLinkR{
+  text-decoration: none;
+}
+
+.intextLinkR:hover{
+  font-weight: bold;
+  color: rgb(255, 154, 154);
+}
+
+.intextLinkB{
+  text-decoration: none;
+}
+
+.intextLinkB:hover{
+  font-weight: bold;
+  color: rgb(135, 185, 245);
+}
+
+.intextLinkG{
+  text-decoration: none;
+}
+
+.intextLinkG:hover{
+  font-weight: bold;
+  color: rgb(97, 255, 118);
+}
+
+.intextLinkP{
+  text-decoration: none;
+}
+
+.intextLinkP:hover{
+  font-weight: bold;
+  color: rgb(179, 97, 255);
 }
 
 .active{
@@ -343,6 +467,38 @@
     background-color:#f2f2f2;
     border: 2px solid #A70000;
     color: #A70000;
+  }
+
+  .flairG:hover{
+    border: 2px solid #F8F4F9;
+  }
+
+  .flairG2:hover{
+    border: 2px solid #F8F4F9;
+  }
+
+  .flairB:hover{
+    border: 2px solid #F8F4F9;
+  }
+
+  .flairB2:hover{
+    border: 2px solid #F8F4F9;
+  }
+
+  .flairR:hover{
+    border: 2px solid #F8F4F9;
+  }
+
+  .flairR2:hover{
+    border: 2px solid #F8F4F9;
+  }
+
+  .flairP:hover{
+    border: 2px solid #F8F4F9;
+  }
+
+  .flairP2:hover{
+    border: 2px solid #F8F4F9;
   }
 
   .card:hover span {
