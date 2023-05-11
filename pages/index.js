@@ -56,55 +56,58 @@ export default function Home() {
             </Link>
           </li>
         </ul>
-        <br />
-        <h1 className={styles.title}>r/MensRights Analysis</h1>
-        <h4 className={styles.title}>By: Isabella Cruz</h4>
-        <br />
-        <div className={styles.card}>
-          <h2 className={styles.title}>
-            Welcome to my Introduction to Anthropology Final Project!
-          </h2>
-          <p>
-            For my ethnographic project, I chose to examine the reddit page{" "}
-            <Link
-              href="https://www.reddit.com/r/MensRights/"
-              className={styles.intextLink}
-              target="_blank"
-            >
-              r/MensRights
-            </Link>
-          </p>
-          <p>
-            All of the information included on this website come directly from
-            the subreddit itself or my observations after being a member for one
-            semester. I did not conduct any interviews or actively participate
-            in the community. All I did was observe the posts and comments made
-            on the subreddit.
-          </p>
+        <div className={styles.spacing}>
+          <h1 className={styles.title}>r/MensRights Analysis</h1>
+          <h4 className={styles.title}>By: Isabella Cruz</h4>
         </div>
-        <br />
-        <div className={styles.card}>
-          <h2 className={styles.title}>How to Navigate:</h2>
-          <p>
-            Each page is comprised of data I collected and personal
-            notes/comments I have based on what I&apos;ve found sorted into
-            different categories for organizational purposes. All personal
-            comments will be made in a card like the one below:
-          </p>
-          <br />
-          <div className={styles.personalCard}>
-            <h4 className={styles.title}>Personal Note:</h4>
-            <hr className={styles.prLine} />
-            <p>This is a personal note card</p>
+        <div className={styles.spacing}>
+          <div className={styles.card}>
+            <h2 className={styles.title}>
+              Welcome to my Introduction to Anthropology Final Project!
+            </h2>
+            <p>
+              For my ethnographic project, I chose to examine the reddit page{" "}
+              <Link
+                href="https://www.reddit.com/r/MensRights/"
+                className={styles.intextLink}
+                target="_blank"
+              >
+                r/MensRights
+              </Link>
+            </p>
+            <p>
+              All of the information included on this website come directly from
+              the subreddit itself or my observations after being a member for
+              one semester. I did not conduct any interviews or actively
+              participate in the community. All I did was observe the posts and
+              comments made on the subreddit.
+            </p>
           </div>
-          <br />
-          <p>
-            If any subreddit other than r/mensrights is referenced, it will be a
-            hyperlink to the page itself. If you hover over the name of a
-            subreddit and it highlights like below:
-          </p>
-          <p className={styles.intextLink}>THIS IS AN EXAMPLE</p>
-          <p>Make sure to click on it :)</p>
+        </div>
+        <div className={styles.spacing}>
+          <div className={styles.card}>
+            <h2 className={styles.title}>How to Navigate:</h2>
+            <p>
+              Each page is comprised of data I collected and personal
+              notes/comments I have based on what I&apos;ve found sorted into
+              different categories for organizational purposes. All personal
+              comments will be made in a card like the one below:
+            </p>
+            <br />
+            <div className={styles.personalCard}>
+              <h4 className={styles.title}>Personal Note:</h4>
+              <hr className={styles.prLine} />
+              <p>This is a personal note card</p>
+            </div>
+            <br />
+            <p>
+              If any subreddit other than r/mensrights is referenced, it will be
+              a hyperlink to the page itself. If you hover over the name of a
+              subreddit and it highlights like below:
+            </p>
+            <p className={styles.intextLink}>THIS IS AN EXAMPLE</p>
+            <p>Make sure to click on it :)</p>
+          </div>
         </div>
       </main>
     </>

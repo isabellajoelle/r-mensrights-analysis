@@ -56,147 +56,158 @@ export default function Language() {
             </Link>
           </li>
         </ul>
-        <br />
-        <h1 className={styles.title}>Language</h1>
-        <br />
-        <div className={styles.card}>
-          <h2 className={styles.title}>
-            What&apos;s the general tone of r/mensrights?
-          </h2>
-          <p>
-            The discourse that goes on in this community is relatively casual.
-            The posts and comments are more conversational than formal.
-          </p>
-          <p>
-            It&apos;s pretty easy for people new to the community to jump in and
-            understand the jargon. Most of the movement specific terms they use
-            are self explanatory and they rest can be learned with a quick
-            google search.
-          </p>
+        <div className={styles.spacing}>
+          <h1 className={styles.title}>Language</h1>
         </div>
-        <br />
-        <h2 className={styles.title}>Gendered Concepts:</h2>
-        <div className={styles.accentcardR3}>
-          <p className={styles.definitionp}>
-            <strong>Sexism</strong> =&gt; <i>(noun)</i> prejudice, stereotyping,
-            or discrimination, typically against women, on the basis of sex
-          </p>
+        <div className={styles.spacing}>
+          <div className={styles.card}>
+            <h2 className={styles.title}>
+              What&apos;s the general tone of r/mensrights?
+            </h2>
+            <p>
+              The discourse that goes on in this community is relatively casual.
+              The posts and comments are more conversational than formal.
+            </p>
+            <p>
+              It&apos;s pretty easy for people new to the community to jump in
+              and understand the jargon. Most of the movement specific terms
+              they use are self explanatory and they rest can be learned with a
+              quick google search.
+            </p>
+          </div>
         </div>
-        <br />
-        <div className={styles.accentcardR3}>
-          <p className={styles.definitionp}>
-            <strong>Gender Politics</strong> =&gt; <i>(noun)</i> debate about
-            the assumed roles and relations of different genders
-          </p>
+        <div className={styles.spacing}>
+          <h2 className={styles.title}>Gendered Concepts:</h2>
+          <div className={styles.accentcardR3}>
+            <p className={styles.definitionp}>
+              <strong>Sexism</strong> =&gt; <i>(noun)</i> prejudice,
+              stereotyping, or discrimination, typically against women, on the
+              basis of sex
+            </p>
+          </div>
         </div>
-        <br />
-        <div className={styles.accentcardR3}>
-          <p className={styles.definitionp}>
-            <strong>Gender Empathy Gap</strong> =&gt; <i>(noun)</i> the claim
-            that people are likely to feel more empathy for one gender than
-            another gender in a similar situation
-          </p>
+        <div className={styles.spacing}>
+          <div className={styles.accentcardR3}>
+            <p className={styles.definitionp}>
+              <strong>Gender Politics</strong> =&gt; <i>(noun)</i> debate about
+              the assumed roles and relations of different genders
+            </p>
+          </div>
         </div>
-        <br />
-        <div className={styles.personalCard}>
-          <h4 className={styles.title}>Personal Note:</h4>
-          <hr className={styles.prLine} />
-          <br />
-          <p>
-            The Gender Empathy Gap is usually used to describe the lack of
-            empathy towards men in certain situations
-          </p>
-          <br />
+        <div className={styles.spacing}>
+          <div className={styles.accentcardR3}>
+            <p className={styles.definitionp}>
+              <strong>Gender Empathy Gap</strong> =&gt; <i>(noun)</i> the claim
+              that people are likely to feel more empathy for one gender than
+              another gender in a similar situation
+            </p>
+          </div>
         </div>
-        <br />
-        <div className={styles.accentcardR3}>
-          <p className={styles.definitionp}>
-            <strong>Gendercide</strong> =&gt; <i>(noun)</i> the systematic
-            killing of members of a specific gender
-          </p>
+        <div className={styles.spacing}>
+          <div className={styles.personalCard}>
+            <h4 className={styles.title}>Personal Note:</h4>
+            <hr className={styles.prLine} />
+            <br />
+            <p>
+              The Gender Empathy Gap is usually used to describe the lack of
+              empathy towards men in certain situations
+            </p>
+            <br />
+          </div>
         </div>
-        <br />
+        <div className={styles.spacing}>
+          <div className={styles.accentcardR3}>
+            <p className={styles.definitionp}>
+              <strong>Gendercide</strong> =&gt; <i>(noun)</i> the systematic
+              killing of members of a specific gender
+            </p>
+          </div>
+        </div>
         <h2 className={styles.title}>Movement Definitions:</h2>
-        <div className={styles.multipleC}>
-          <div className={styles.accentcardR5}>
-            <h3 className={styles.title_center}>Feminism</h3>
-            <hr className={styles.rulesHr} />
-            <br />
-            <p className={styles.decorativep2}>
-              the advocacy of women&apos;s rights on the basis of the equality
-              of the sexes
-            </p>
+        <div className={styles.spacing}>
+          <div className={styles.multipleC}>
+            <div className={styles.accentcardR5}>
+              <h3 className={styles.title_center}>Feminism</h3>
+              <hr className={styles.rulesHr} />
+              <br />
+              <p className={styles.decorativep2}>
+                the advocacy of women&apos;s rights on the basis of the equality
+                of the sexes
+              </p>
+            </div>
+            <div className={styles.middle2}></div>
+            <div className={styles.accentcardR5}>
+              <h3 className={styles.title_center}>MGTOW</h3>
+              <hr className={styles.rulesHr} />
+              <br />
+              <p className={styles.decorativep2}>
+                Men Going Their Own Way; an online social movement to combat
+                feminism where &quot;men renounce interactions with women and
+                seek to define and live out their masculinity on their own
+                terms&quot;
+              </p>
+              <br />
+            </div>
+            <div className={styles.middle2}></div>
+            <div className={styles.accentcardR5}>
+              <h3 className={styles.title_center}>The Red Pill</h3>
+              <hr className={styles.rulesHr} />
+              <br />
+              <p className={styles.decorativep2}>
+                used to refer to a process by which a person&apos;s perspective
+                is dramatically transformed, introducing them to a new and
+                typically disturbing understanding of the true nature of a
+                particular situation
+              </p>
+            </div>
           </div>
-          <div className={styles.middle2}></div>
-          <div className={styles.accentcardR5}>
-            <h3 className={styles.title_center}>MGTOW</h3>
-            <hr className={styles.rulesHr} />
+        </div>
+        <div className={styles.spacing}>
+          <div className={styles.personalCard}>
+            <h4 className={styles.title}>Personal Note:</h4>
+            <hr className={styles.prLine} />
             <br />
-            <p className={styles.decorativep2}>
-              Men Going Their Own Way; an online social movement to combat
-              feminism where &quot;men renounce interactions with women and seek
-              to define and live out their masculinity on their own terms&quot;
+            <p>
+              It&apos;s important to note that while these &quot;movements&quot;
+              are frequently mentioned in the community, the community does not
+              associate with them.
+            </p>
+            <br />
+            <p>
+              Also, the red pill is not technically a movement; however, the
+              moderators of this subreddit list it as one.
             </p>
             <br />
           </div>
-          <div className={styles.middle2}></div>
-          <div className={styles.accentcardR5}>
-            <h3 className={styles.title_center}>The Red Pill</h3>
-            <hr className={styles.rulesHr} />
-            <br />
-            <p className={styles.decorativep2}>
-              used to refer to a process by which a person&apos;s perspective is
-              dramatically transformed, introducing them to a new and typically
-              disturbing understanding of the true nature of a particular
-              situation
+        </div>
+        <div className={styles.spacing}>
+          <div className={styles.card}>
+            <h2 className={styles.title}>The Duality of Terms</h2>
+            <p>
+              This community uses alot of terms and concepts that are gendered
+              based on whether you are referring to men or women.
+            </p>
+            <p>
+              Users typically use the version referring to women. If they use
+              the version referring to men, it is typically a complaint about
+              the use of the word/phrase.
             </p>
           </div>
         </div>
-        <br />
-        <div className={styles.personalCard}>
-          <h4 className={styles.title}>Personal Note:</h4>
-          <hr className={styles.prLine} />
-          <br />
-          <p>
-            It&apos;s important to note that while these &quot;movements&quot;
-            are frequently mentioned in the community, the community does not
-            associate with them.
-          </p>
-          <br />
-          <p>
-            Also, the red pill is not technically a movement; however, the
-            moderators of this subreddit list it as one.
-          </p>
-          <br />
-        </div>
-        <br />
-        <br />
-        <div className={styles.card}>
-          <h2 className={styles.title}>The Duality of Terms</h2>
-          <p>
-            This community uses alot of terms and concepts that are gendered
-            based on whether you are referring to men or women.
-          </p>
-          <p>
-            Users typically use the version referring to women. If they use the
-            version referring to men, it is typically a complaint about the use
-            of the word/phrase.
-          </p>
-        </div>
-        <br />
-        <br />
         <h1 className={styles.title_center}>Gendered Terms:</h1>
-        <div className={styles.multipleC}>
-          <div className={styles.accentcardR2}>
-            <h4 className={styles.title_center}>
-              <i>(masculine)</i>
-            </h4>
-          </div>
-          <div className={styles.middle2}></div>
-          <div className={styles.accentcardR2}>
-            <h4 className={styles.title_center}>
-              <i>(feminine)</i>
-            </h4>
+        <div className={styles.spacing}>
+          <div className={styles.multipleC}>
+            <div className={styles.accentcardR2}>
+              <h4 className={styles.title_center}>
+                <i>(masculine)</i>
+              </h4>
+            </div>
+            <div className={styles.middle2}></div>
+            <div className={styles.accentcardR2}>
+              <h4 className={styles.title_center}>
+                <i>(feminine)</i>
+              </h4>
+            </div>
           </div>
         </div>
         <div className={styles.multipleC}>
@@ -264,19 +275,19 @@ export default function Language() {
             </p>
           </div>
         </div>
-        <br />
-        <div className={styles.personalCard}>
-          <h4 className={styles.title}>Personal Note:</h4>
-          <hr className={styles.prLine} />
-          <br />
-          <p>
-            It&apos;s incredibly difficult to find a consistent definition for
-            Femcel. In the subreddit, it was typically used to insult a woman
-            and peg her as undesirable
-          </p>
-          <br />
+        <div className={styles.spacing}>
+          <div className={styles.personalCard}>
+            <h4 className={styles.title}>Personal Note:</h4>
+            <hr className={styles.prLine} />
+            <br />
+            <p>
+              It&apos;s incredibly difficult to find a consistent definition for
+              Femcel. In the subreddit, it was typically used to insult a woman
+              and peg her as undesirable
+            </p>
+            <br />
+          </div>
         </div>
-        <br />
         <div className={styles.multipleC}>
           <div className={styles.dualdef}>
             <h3>Mansplaining</h3>
@@ -321,79 +332,84 @@ export default function Language() {
             </p>
           </div>
         </div>
-        <br />
-        <div className={styles.personalCard}>
-          <h4 className={styles.title}>Personal Note:</h4>
-          <hr className={styles.prLine} />
-          <br />
-          <p>
-            Toxic Femininity is frequently brought up in conversation when Toxic
-            Masculinity is referred to. Many users believe it is a double
-            standard that men are the perpetrators of toxic masculinity and also
-            viewed as the cause of toxic femininity
-          </p>
-          <br />
+        <div className={styles.spacing}>
+          <div className={styles.personalCard}>
+            <h4 className={styles.title}>Personal Note:</h4>
+            <hr className={styles.prLine} />
+            <br />
+            <p>
+              Toxic Femininity is frequently brought up in conversation when
+              Toxic Masculinity is referred to. Many users believe it is a
+              double standard that men are the perpetrators of toxic masculinity
+              and also viewed as the cause of toxic femininity
+            </p>
+            <br />
+          </div>
         </div>
-        <br />
-        <br />
-        <h2 className={styles.title}>
-          Miscellaneous Frequently Used Words/Phrases:
-        </h2>
-        <div className={styles.accentcardR3}>
-          <p className={styles.definitionp}>
-            <strong>Prejudice</strong> =&gt; <i>(noun)</i> preconceived opinion
-            that is not based on reason or actual experience.
-          </p>
+        <div className={styles.spacing}>
+          <h2 className={styles.title}>
+            Miscellaneous Frequently Used Words/Phrases:
+          </h2>
+          <div className={styles.accentcardR3}>
+            <p className={styles.definitionp}>
+              <strong>Prejudice</strong> =&gt; <i>(noun)</i> preconceived
+              opinion that is not based on reason or actual experience.
+            </p>
+          </div>
         </div>
-        <br />
-        <div className={styles.accentcardR3}>
-          <p className={styles.definitionp}>
-            <strong>Asexual</strong> =&gt; <i>(noun)</i> a person who
-            experiences no sexual feelings or desires, or who is not sexually
-            attracted to anyone.
-          </p>
+        <div className={styles.spacing}>
+          <div className={styles.accentcardR3}>
+            <p className={styles.definitionp}>
+              <strong>Asexual</strong> =&gt; <i>(noun)</i> a person who
+              experiences no sexual feelings or desires, or who is not sexually
+              attracted to anyone.
+            </p>
+          </div>
         </div>
-        <br />
-        <div className={styles.accentcardR3}>
-          <p className={styles.definitionp}>
-            <strong>Meta Rights</strong> =&gt; <i>(noun)</i> the entitlements of
-            individuals to their rights, including the possibility to waive,
-            transfer or sell their rights
-          </p>
+        <div className={styles.spacing}>
+          <div className={styles.accentcardR3}>
+            <p className={styles.definitionp}>
+              <strong>Meta Rights</strong> =&gt; <i>(noun)</i> the entitlements
+              of individuals to their rights, including the possibility to
+              waive, transfer or sell their rights
+            </p>
+          </div>
         </div>
-        <br />
-        <div className={styles.accentcardR3}>
-          <p className={styles.definitionp}>
-            <strong>Victim Complex</strong> =&gt; <i>(noun)</i> describes a
-            personality trait of persons who believe they are constantly the
-            victims of the harmful actions of others, even when made aware of
-            evidence to the contrary
-          </p>
+        <div className={styles.spacing}>
+          <div className={styles.accentcardR3}>
+            <p className={styles.definitionp}>
+              <strong>Victim Complex</strong> =&gt; <i>(noun)</i> describes a
+              personality trait of persons who believe they are constantly the
+              victims of the harmful actions of others, even when made aware of
+              evidence to the contrary
+            </p>
+          </div>
         </div>
-        <br />
-        <div className={styles.accentcardR3}>
-          <p className={styles.definitionp}>
-            <strong>Egalitarianism</strong> =&gt; <i>(noun)</i> describes a
-            personality trait of persons who believe they are constantly the
-            victims of the harmful actions of others, even when made aware of
-            evidence to the contrary
-          </p>
+        <div className={styles.spacing}>
+          <div className={styles.accentcardR3}>
+            <p className={styles.definitionp}>
+              <strong>Egalitarianism</strong> =&gt; <i>(noun)</i> describes a
+              personality trait of persons who believe they are constantly the
+              victims of the harmful actions of others, even when made aware of
+              evidence to the contrary
+            </p>
+          </div>
         </div>
-        <br />
-        <div className={styles.card}>
-          <h2 className={styles.title}>The Use of Swear Words</h2>
-          <p>
-            There&apos;s no sugar coating it - this community uses alot of foul
-            language. Fuck, Bitch, Shit, Whore, Cunt ... you name it
-            they&apos;ve said it at nauseam.
-          </p>
-          <p>
-            This is likely due to the casual natural of the subreddit combined
-            with the anger and passion that arises from users when discussing
-            certain topics.
-          </p>
+        <div className={styles.spacing}>
+          <div className={styles.card}>
+            <h2 className={styles.title}>The Use of Swear Words</h2>
+            <p>
+              There&apos;s no sugar coating it - this community uses alot of
+              foul language. Fuck, Bitch, Shit, Whore, Cunt ... you name it
+              they&apos;ve said it at nauseam.
+            </p>
+            <p>
+              This is likely due to the casual natural of the subreddit combined
+              with the anger and passion that arises from users when discussing
+              certain topics.
+            </p>
+          </div>
         </div>
-        <br />
         <h2 className={styles.title}>Top Three Swear Words:</h2>
         <div className={styles.multipleC}>
           <div className={styles.accentcardR2}>
