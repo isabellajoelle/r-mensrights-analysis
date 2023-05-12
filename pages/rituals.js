@@ -116,6 +116,20 @@ export default function Rituals() {
             </div>
           </div>
         </div>
+        <div className={styles.spacing}>
+          <div className={styles.personalCard}>
+            <h4 className={styles.title}>Personal Note:</h4>
+            <hr className={styles.prLine} />
+            <br />
+            <p>
+              The most used category is a tie between the red and blue tags.
+              They can be found on almost every single post made in
+              r/mensrights. Purple and green categories exists we just
+              dont&apos;t get to see them so often.
+            </p>
+            <br />
+          </div>
+        </div>
         <h2 className={styles.title}>FLAIR OPTIONS</h2>
         <div className={styles.spacing}>
           <div className={styles.multipleC}>

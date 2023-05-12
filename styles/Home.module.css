@@ -201,6 +201,7 @@
   border: 2px solid #f2f2f2;
   padding-left: 10px;
   padding-bottom: 20px;
+  padding-right: 10px;
 }
 
 .accentcardR3 p{
@@ -324,6 +325,12 @@
 
 .accentcardR2 li{
   padding: 5px;
+}
+
+.imgdiv{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .center_div{

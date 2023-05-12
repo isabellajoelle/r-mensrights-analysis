@@ -180,7 +180,9 @@ export default function General() {
             <br />
             <p>
               The descriptions from the cards above come directly from the{" "}
-              <strong>MENS RIGHTS WIKI</strong> tab of the community.
+              <strong>MENS RIGHTS WIKI</strong> tab of the community. This tab
+              also includes frequently asked questions, describes the flair
+              system, and talks about moderation.
             </p>
             <br />
           </div>

@@ -347,6 +347,19 @@ export default function Language() {
           </div>
         </div>
         <div className={styles.spacing}>
+          <div className={styles.personalCard}>
+            <h4 className={styles.title}>Personal Note:</h4>
+            <hr className={styles.prLine} />
+            <br />
+            <p>
+              Most of these words originally were only used by women, resulting
+              in a large number of these phrases only being used{" "}
+              <strong>on</strong> Men.
+            </p>
+            <br />
+          </div>
+        </div>
+        <div className={styles.spacing}>
           <h2 className={styles.title}>
             Miscellaneous Frequently Used Words/Phrases:
           </h2>

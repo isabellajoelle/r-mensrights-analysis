@@ -145,6 +145,20 @@ export default function Beliefs() {
               </div>
             </div>
           </div>
+          <div className={styles.spacing}>
+            <div className={styles.personalCard}>
+              <h4 className={styles.title}>Personal Note:</h4>
+              <hr className={styles.prLine} />
+              <br />
+              <p>
+                There are a wide range of other opinions in this community but
+                these were the opinions I saw the most during my research. I do
+                not believe it&apos;s fair to judge a community based on their
+                extremists, which is why there are very few unified beliefs.
+              </p>
+              <br />
+            </div>
+          </div>
         </div>
       </main>
     </>
