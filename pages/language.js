@@ -354,7 +354,8 @@ export default function Language() {
             <p>
               Most of these words originally were only used by women, resulting
               in a large number of these phrases only being used{" "}
-              <strong>on</strong> Men.
+              <strong>on</strong> Men. Most of the masculine equivalents of
+              these phrases I had never seen before joining this subreddit.
             </p>
             <br />
           </div>
